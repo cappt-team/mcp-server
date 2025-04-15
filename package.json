@@ -1,0 +1,30 @@
+{
+  "name": "mcp-server-cappt",
+  "version": "0.0.1",
+  "description": "A MCP server for Cappt",
+  "license": "MIT",
+  "author": "ye4241",
+  "homepage": "https://www.cappt.cc",
+  "type": "module",
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc - -watch",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node-fetch": "^2.6.12",
+    "shx": "^0.4.0",
+    "typescript": "^5.5.3"
+  }
+}
