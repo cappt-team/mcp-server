@@ -270,7 +270,7 @@ server.tool(
         });
         const data: any = await response.json();
         const code = data.code;
-        const body = data.body;
+        const body = data.data;
         const result = code != 200
             ? `Failed to generate presentation: ${JSON.stringify(data)}`
             : JSON.stringify(body);
