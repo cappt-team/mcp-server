@@ -13,6 +13,7 @@
   "bugs": {
     "url": "https://github.com/cappt-team/mcp-server-nodejs/issues"
   },
+  "keywords": ["cappt", "mcp", "server", "nodejs"],
   "bin": {
     "cappt": "dist/index.js"
   },
