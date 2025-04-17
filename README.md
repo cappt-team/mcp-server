@@ -1,7 +1,7 @@
 # mcp-server-cappt: A MCP server for Cappt
 
 <div align="center">
-  <img alt="Cappt" height="128" width="128" src="./assets/logo.png"/>
+  <img alt="Cappt" height="128" width="128" src="https://raw.githubusercontent.com/cappt-team/mcp-server-nodejs/main/assets/logo.png"/>
 </div>
 
 ## Overview
