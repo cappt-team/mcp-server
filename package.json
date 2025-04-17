@@ -15,7 +15,7 @@
   },
   "keywords": ["cappt", "mcp", "server", "nodejs"],
   "bin": {
-    "cappt": "dist/index.js"
+    "mcp-server-cappt": "dist/index.js"
   },
   "files": [
     "dist"
