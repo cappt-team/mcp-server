@@ -291,7 +291,7 @@ function serve(cappt_url: string, cappt_token: string): McpServer {
 async function main() {
     const program = new Command();
     program.addOption(new Option('--cappt-url <url>', 'Cappt API base URL').env('CAPPT_URL').default(CAPPT_BASE_URL))
-        .addOption(new Option('--cappt-token <token>', 'Cappt API token').env('CAPPT_TOKEN'))
+        .addOption(new Option('--cappt-token <token>', 'Cappt API token').env('CAPPT_TOKEN').makeOptionMandatory())
         .addOption(new Option('--transport <method>', 'Transport method').choices(['stdio', 'sse']).env('TRANSPORT').default('stdio'))
         .addOption(new Option('--sse-host <host>', 'SSE server host').env('SSE_HOST').default('0.0.0.0'))
         .addOption(new Option('--sse-port <port>', 'SSE server port').env('SSE_PORT').default(8000));
