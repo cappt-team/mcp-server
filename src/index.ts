@@ -184,7 +184,7 @@ async function runHttpServerTransport(options: CapptOptions) {
         sse: {} as Record<string, SSEServerTransport>
     };
     // Modern Streamable HTTP endpoint
-    app.all('/mcp', async (req: Request, res: Response) => {
+    app.all('/streamable', async (req: Request, res: Response) => {
         const token = getToken(options, req);
         if (!token) {
             const error: JSONRPCError = {
