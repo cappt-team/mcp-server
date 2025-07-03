@@ -27,16 +27,16 @@
     "start": "npm run build && node ./dist/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@modelcontextprotocol/sdk": "^1.13.3",
     "commander": "^14.0.0",
     "express": "^5.1.0",
     "node-fetch": "^3.3.2",
-    "zod": "^3.25.30"
+    "zod": "^3.25.71"
   },
   "devDependencies": {
     "@types/commander": "^2.12.5",
-    "@types/express": "^5.0.2",
-    "@types/node": "^22.15.21",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.10",
     "@types/node-fetch": "^2.6.12",
     "shx": "^0.4.0",
     "typescript": "^5.8.3"
