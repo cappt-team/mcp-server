@@ -11,5 +11,6 @@ export const GeneratePresentationResponse = z.object({
         title: z.string().describe('Title'),
         thumbnail: z.string().describe('Thumbnail URL'),
         gallery: z.array(z.string()).optional().describe('Gallery URL list'),
+        preview: z.string().describe('Preview URL'),
     }).describe('Response data').nullable(),
 });
