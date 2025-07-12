@@ -16,6 +16,7 @@
 - 输入：
   - `outline`（字符串）：标准提纲
   - `include_gallery`（布尔值）：是否在结果中包含图库
+  - `include_preview`（布尔值）：是否在结果中包含预览
 - 返回：
   - `record_id`：生成的演示文稿的记录 ID
   - `status`：生成过程的状态
@@ -24,6 +25,7 @@
   - `title`：演示文稿的标题
   - `thumbnail`：演示文稿的缩略图
   - `gallery`：演示文稿的图库
+  - `preview`：演示文稿的预览
 
 ### 提示词
 

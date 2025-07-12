@@ -16,6 +16,7 @@ A Model Context Protocol server for generating outline and presentation with cap
 - Input:
   - `outline` (string): a standard outline
   - `include_gallery` (bool): whether to include gallery in result
+  - `include_preview` (bool): whether to include preview in result
 - Returns:
   - `record_id`: the record ID of the generated presentation
   - `status`: the status of the generation process'
@@ -23,7 +24,8 @@ A Model Context Protocol server for generating outline and presentation with cap
   - `editor_url`: the URL to edit the presentation
   - `title`: the title of the presentation
   - `thumbanil`: the thumbnail of the presentation
-    - `gallery`： the gallery of the presentation
+  - `gallery`： the gallery of the presentation
+  - `preview`: the preview of the presentation
 
 ### Prompts
 
